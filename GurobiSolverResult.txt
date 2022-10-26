@@ -1,0 +1,34 @@
+System.InvalidCastException 显示 Invalid cast from 'System.String' to 'System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+Set parameter LogFile to value "mip.log"
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (win64)
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+Optimize a model with 1696 rows, 6900 columns and 11532 nonzeros
+Model fingerprint: 0x3bddab39
+Variable types: 0 continuous, 6900 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+01, 6e+02]
+  Bounds range     [1e+04, 1e+04]
+  RHS range        [8e+01, 2e+03]
+Found heuristic solution: objective 1.135936e+07
+Presolve removed 1684 rows and 6822 columns
+Presolve time: 0.04s
+Presolved: 12 rows, 78 columns, 364 nonzeros
+Found heuristic solution: objective 1.198369e+07
+Variable types: 0 continuous, 78 integer (0 binary)
+Found heuristic solution: objective 1.198399e+07
+
+Root relaxation: objective 1.201396e+07, 19 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.201396e+07 1.2014e+07  0.00%     -    0s
+
+Explored 1 nodes (19 simplex iterations) in 0.05 seconds (0.01 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 1.2014e+07 1.1984e+07 1.19837e+07 1.13594e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.201395900000e+07, best bound 1.201395900000e+07, gap 0.0000%
