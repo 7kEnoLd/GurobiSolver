@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GurobiSolver", "GurobiSolver\GurobiSolver.csproj", "{6D2089F7-A93F-41B9-B3BF-626CC67F0124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D2089F7-A93F-41B9-B3BF-626CC67F0124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2089F7-A93F-41B9-B3BF-626CC67F0124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2089F7-A93F-41B9-B3BF-626CC67F0124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2089F7-A93F-41B9-B3BF-626CC67F0124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813A1C14-793B-4DC7-9E5A-35DDA1C94E4B}
+	EndGlobalSection
+EndGlobal
